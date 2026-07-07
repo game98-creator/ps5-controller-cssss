@@ -1,6 +1,12 @@
-.controller {
+/* Replace PS5 controller body */
+.controller.ds5 {
     background-image: url("https://raw.githubusercontent.com/game98-creator/ps5-controller-cssss/main/base%20(1).png") !important;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+/* Hide default controller image */
+.controller.ds5 .face {
+    background: transparent !important;
 }
